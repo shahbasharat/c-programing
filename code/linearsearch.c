@@ -3,7 +3,7 @@ void main()
 {
     int num;
   int i, keynum, found=0;
-   printf("Enter the number of elements ");
+   printf("Enter the number of elements \n  ");
    scanf("%d",&num);
    int array[num]; 
    printf("Enter the elements one by one \n");
@@ -12,7 +12,7 @@ void main()
 scanf("%d",&array[i]);
 
 }
- printf("Enter the element to be searched ");
+ printf("Enter the element to be searched \n  ");
  scanf("%d",&keynum);
  for (i=0; i<num ; i++)
  {
@@ -23,7 +23,7 @@ scanf("%d",&array[i]);
   }
  }
  if (found==1)
- printf("element is present in the array at  postion %d",i+1);
+ printf("element is present in the array at  postion %d \n ",i+1);
  else 
  printf("element is not present in the array\n");
 }
