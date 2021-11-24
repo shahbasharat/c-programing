@@ -13,7 +13,7 @@ scanf("%d",&array[i]);
 
 }
  printf("Enter the element to be searched ");
- scanf("%d"&keynum);
+ scanf("%d",&keynum);
  for (i=0; i<num ; i++)
  {
  if (keynum == array[i])
