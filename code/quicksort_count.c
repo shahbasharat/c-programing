@@ -1,6 +1,6 @@
 #include<stdio.h>
 int count = 0;
-void getarray(int a[] , int n)
+void getarray(int a[] , int n)                                                          
 {
     int i;
     printf("enter %d values \n",n);
